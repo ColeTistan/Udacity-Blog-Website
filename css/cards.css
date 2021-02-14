@@ -1,7 +1,7 @@
-/* card sizes - start */
+/* cards - start */
 
 .card {
-    height: 27em;
+    height: 22em;
     width: 100%;
     border: 1px solid #979797;
     border-radius: 16px;
@@ -58,7 +58,16 @@
 
 /* card article -end */
 
-/* card sizes - end */
+/* about card - start */
+
+#about-card {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+
+/* about card - end */
+/* cards - end */
 
 .card-content {
     padding: 15px;
@@ -90,7 +99,15 @@
     }
 
     .card {
-        height: 33em;
+        height: 30em;
+    }
+
+    #about-card {
+        height: 30em;
+        width: 15em;
+        font-size: 1.5em;
+        font-size: 1em;
+        padding: 0;
     }
 }
 
