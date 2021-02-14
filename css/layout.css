@@ -1,0 +1,273 @@
+/* general layout - start */
+
+.container-1 {
+    margin: 0 auto;
+    width: 90em;
+}
+
+.container-2 {
+    margin: 0 auto;
+    width: 80em;
+}
+
+.container-3 {
+    margin: 0 auto;
+    width: 70em;
+}
+
+.container-4 {
+    margin: 0 auto;
+    width: 60em;
+}
+
+.container-7 {
+    margin: 0 auto;
+    width: 30em;
+}
+
+.column-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+}
+
+.column-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+}
+
+.column-1 {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+    color: #444;
+    margin: 50px;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+/* general layout - end */
+
+/* footer layout - start */
+
+.footer-wrapper {
+    margin-top: 2em;
+}
+
+.footer-list {
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer layout - end */
+
+/* responsive layout - start */
+
+@media screen and (max-width: 1024px) {
+    .column-4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+
+    .column-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2em;
+    }  
+
+    .column-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        width: 75%;
+    }
+
+    .container-1 {
+        margin: 0 auto;
+        width: 40em;
+    }
+
+    .container-2 {
+        margin: 0 auto;
+        width: 60em;
+    }
+
+    .container-3 {
+        margin: 0 auto;
+        width: 40em;
+    }
+    
+    .container-4 {
+        margin: 0 auto;
+        width: 35em;
+    }
+
+    .container-7 {
+        margin: 0 auto;
+        width: 25em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .column-4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+
+    .column-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2em;
+    }  
+
+    .column-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        width: 75%;
+    }
+
+    .container-1 {
+        margin: 0 auto;
+        width: 40em;
+    }
+
+    .container-2 {
+        margin: 0 auto;
+        width: 45em;
+    }
+
+    .container-3 {
+        margin: 0 auto;
+        width: 40em;
+    }
+    
+    .container-4 {
+        margin: 0 auto;
+        width: 35em;
+    }
+
+    .container-7 {
+        margin: 0 auto;
+        width: 25em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .column-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+    }
+
+    .column-3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2em;
+    }
+
+    .column-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        width: 20em;
+    }
+
+    .container-1 {
+        margin: 0 auto;
+        width: 20em;
+    }
+
+    .container-2 {
+        margin: 0 auto;
+        width: 20em;
+    }
+
+    .container-3 {
+        margin: 0 auto;
+        width: 20em;
+    }
+    
+    .container-4 {
+        margin: 0 auto;
+        width: 30em;
+    }
+
+    .container-7 {
+        margin: 0 auto;
+        width: 20em;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .column-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        margin: 0 auto;
+        width: 15em;
+    }
+
+    .column-3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2em;
+    }
+
+    .column-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .container-0 {
+        margin: 0 auto;
+        width: 20em;
+    }    
+
+    .container-1 {
+        margin: 0 auto;
+        width: 15em;
+    }
+
+    .container-2 {
+        margin: 0 auto;
+        width: 17.5em;
+    }
+
+    .container-3 {
+        margin: 0 auto;
+        width: 15em;
+    }
+    
+    .container-4 {
+        margin: 0 auto;
+        width: 15em;
+    }
+
+    .container-7 {
+        margin: 0 auto;
+        width: 15em;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    nav .nav-list {
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .nav-item {
+        margin: 10px;
+    }
+}
+
+/* responsive layout - end */

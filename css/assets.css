@@ -1,0 +1,110 @@
+/* button assets - start */
+
+.btn {
+  padding: 5px 10px;
+  background-color: #007ffd;
+  border: none;
+  border-radius: 10px;
+  cursor:pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #1489ff;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 1px 4px #1489ff;
+}
+
+/* button assets - end */
+
+/* input assets - start */
+
+input[type=text] {
+  border-radius: 20px;
+  margin-bottom: 15px;
+  height: 3em;
+  width: 20em;
+  border: 2px solid #4e5553;
+  outline: none;
+  padding: 5px;
+  transition: 0.3s ease-in-out;  
+}
+
+input[type=text]:focus {
+  width: 20em; 
+  border: 2px solid #ffffff;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 1px 4px #4e5553;
+}
+
+.search-box {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+/* input assets - end */
+
+/* additional assets - start */
+
+.mt-3 {
+  margin-top: 3em;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.mx-2 {
+  margin: 2em;
+}
+
+.px-2 {
+  padding: 2em;
+}
+
+.prbl-2 {
+  padding: 0 2em 0 2em;
+}
+
+.prb-2 {
+  padding: 0 1.5em 0 1.5em;
+}
+
+.page-header {
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.logo {
+  flex: 1;
+  font-weight: 600;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+}
+
+/* footer assets - start */
+
+/* footer layout - start */
+
+.copyright-text {
+  background-color: #292929;
+  text-align: center;
+  padding: 8px 0 8px 0;
+  color: #ecf0f1;
+}
+
+.footer-item {
+  cursor: pointer;
+}
+
+/* footer layout - end */
+
+
+/* additional assets - end */
